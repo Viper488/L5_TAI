@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: lightgreen;
+}
+.img {
+  width: 100px;
+  height: auto;
+}
+.center {
+  text-align: center;
+}
+.navbar {
+  background-color: lightyellow;
+}
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
