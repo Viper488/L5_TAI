@@ -18,6 +18,7 @@ import { SearchBarComponent } from './shared/search-bar/search-bar.component';
 import {FormsModule} from "@angular/forms";
 import { BlogHomeComponent } from './components/blog-home/blog-home.component';
 import { FilterPipe } from './pipes/filter.pipe';
+import { TextFormatDirective } from './directives/text-format.directive';
 
 
 
@@ -37,6 +38,7 @@ import { FilterPipe } from './pipes/filter.pipe';
     SearchBarComponent,
     BlogHomeComponent,
     FilterPipe,
+    TextFormatDirective,
   ],
   imports: [
     BrowserModule,
