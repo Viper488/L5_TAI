@@ -11,10 +11,10 @@ export class BlogComponent implements OnInit {
   public items$: any;
 
   constructor(private service: DataService) {
-    this.getAll()
   }
 
   ngOnInit(): void {
+    this.getAll()
   }
 
   getAll() {

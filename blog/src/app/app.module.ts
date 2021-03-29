@@ -13,6 +13,7 @@ import { BlogItemImageComponent } from './components/blog-item-image/blog-item-i
 import { BlogItemDetailsComponent } from './components/blog-item-details/blog-item-details.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DataService } from "./services/data.service";
+import { SummaryPipe } from './pipes/summary.pipe';
 
 
 
@@ -26,7 +27,8 @@ import { DataService } from "./services/data.service";
     BlogItemComponent,
     BlogItemTextComponent,
     BlogItemImageComponent,
-    BlogItemDetailsComponent
+    BlogItemDetailsComponent,
+    SummaryPipe,
   ],
   imports: [
     BrowserModule,
