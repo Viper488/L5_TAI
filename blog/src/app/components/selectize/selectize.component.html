@@ -1,7 +1,7 @@
 <div>
   <h5 class="card-title">Wyszukiwarka wpisów(po zawartości):</h5>
   <input #input type="text" placeholder="Wpisz fraze..." class="form-control selective-bar" textFormat>
-  <h5 class="card-title">Znaleźione wpisy:</h5>
+  <h5 class="card-title">Znalezione wpisy:</h5>
   <div *ngFor="let p of posts$">
     <blog-item [id]="p.id" [image]="p.image" [title]="p.title" [text]="p.text">
     </blog-item>
