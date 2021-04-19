@@ -1,8 +1,11 @@
-<div>
-  <p>
-    {{ text | summary:35 }}
+<div class="card-body">
+  <h5 class="card-title">
+    {{ text}}
+  </h5>
+  <p class="card-text">
+    {{text | summary:35 }}
   </p>
-  <a [routerLink]="['/blog/details/1']">
+  <a href="#" class="btn btn-primary" [routerLink]="['/blog/details/', id]">
     Więcej
   </a>
 </div>
