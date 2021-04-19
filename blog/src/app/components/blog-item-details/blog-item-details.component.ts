@@ -10,7 +10,8 @@ import {ActivatedRoute} from '@angular/router';
 export class BlogItemDetailsComponent implements OnInit {
 
   public image = 'http://osnews.pl/wp-content/uploads/2016/06/it-grafika.jpg';
-  public text = 'Tytuł';
+  public text = 'text';
+  public title = 'title';
   public id: number = 0;
 
 
@@ -29,6 +30,8 @@ export class BlogItemDetailsComponent implements OnInit {
           this.image = res['image'];
         // @ts-ignore
           this.text = res['text'];
+          // @ts-ignore
+          this.title = res['title'];
       });
     }
 
