@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app/index.js",
-    "run app": "node_modules/.bin/nodemon"
+    "start": "node index.js",
+    "run app": "node_modules/.bin/nodemon index.js"
   },
   "author": "Artur Hamernik",
   "license": "ISC",
